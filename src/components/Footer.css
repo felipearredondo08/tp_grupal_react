@@ -1,0 +1,59 @@
+
+.copyright h4{
+
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+ 
+ }
+
+ 
+
+
+.footer {
+   max-width: var(--max-width);
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer_widgets {
+   font-size: 24px;
+}
+
+.footer_widget_title {
+   color: var(--accent-color);
+   margin: 0 0 1rem 0;
+}
+
+.footer_widget_text {
+   margin: 0;
+}
+
+/*  responsive stuff  */
+
+@media screen and (max-width:1280px) {
+
+   .header,
+   .footer {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .menu {
+      margin-top: 2rem;
+   }
+
+   .content {
+      align-items: center;
+   }
+
+   .footer_widget {
+      margin-bottom: 1rem;
+   }
+
+
+
+   
+
+}

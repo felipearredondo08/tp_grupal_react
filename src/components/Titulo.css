@@ -1,0 +1,36 @@
+.content {
+    max-width: var(--max-width);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    
+ 
+ }
+ 
+ .content_claim {
+    font-size: 64px;
+    padding-top: 13rem;
+ 
+    color: var(--accent-color);
+    margin: 0;
+ }
+ 
+ .content_subclaim {
+    font-size: 36px;
+    margin: .5rem 0;
+    margin-bottom: 2rem;
+ 
+ }
+
+ 
+.boton-tienda-content {
+    background-color: rgb(255, 52, 245);
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    transition: transform .2s;
+    margin-top: 2rem;
+ }
+ 
