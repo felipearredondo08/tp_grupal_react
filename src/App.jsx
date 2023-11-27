@@ -29,8 +29,6 @@ const App = () => {
 
       {/* Usar el componente Footer */}
       <Footer />
-
-      {/* Otro contenido de tu aplicación */}
       
     </div>
   );

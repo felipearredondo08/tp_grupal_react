@@ -5,18 +5,14 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   position: absolute;
+   /* position: absolute; */
    top: 2rem;
    width: 70%;
-   
- 
 }
 
 .logo {
    width: 6rem;
 }
-
-
 
 .menu-list {
    margin: 0;
@@ -32,3 +28,27 @@
    margin-right: 0;
 }
 
+@media (min-width:321px) and (max-width:768px){
+
+   .logo{
+      width: 80px;
+      height: auto;
+      margin-right: 40px;
+      margin-left: 10px;
+   }
+
+   .menu {
+      margin-top: 2rem;
+      margin-left: 40px;
+   }
+
+   .content {
+      align-items: center;
+   }
+
+   .menu-list_item{
+      font-size: medium;
+      margin: 0 5px;
+   }
+
+}

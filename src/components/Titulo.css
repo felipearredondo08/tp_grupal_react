@@ -5,9 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
     padding-top: 15%;
     
- 
  }
  
  .content_claim {
@@ -33,4 +33,18 @@
     transition: transform .2s;
     margin-top: 2rem;
  }
- 
+
+ @media (min-width:321px) and (max-width:768px){
+   .content{
+
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+   }
+
+   .content img{
+      width: 320px;
+      height: auto;
+   }
+ }

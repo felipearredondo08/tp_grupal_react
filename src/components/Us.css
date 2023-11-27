@@ -90,3 +90,31 @@
       border:solid 10px;
    }
 }
+
+/* @media (max-width:320px) {
+   
+} */
+
+ @media (min-width:321px) and (max-width:768px){
+
+   .nosotros{
+      margin: 20px 5px;
+   }
+   .main img{
+      width: 250px;
+      height: auto;
+   }
+
+   .about-text h1{
+      font-size: x-large;
+      padding-top: 10px;
+   }
+
+   .about-text p{
+      padding: 0px 5px;
+   }
+}
+
+/* @media (min-width:769px){
+
+}*/

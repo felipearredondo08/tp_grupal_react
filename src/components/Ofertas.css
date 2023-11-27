@@ -2,14 +2,13 @@
 .card {
     position: relative;
     width: 300px;
-    height: 400px;
+    height: auto;
     background: rgb(255, 189, 252);
     border-radius: 5px;
     overflow: hidden;
     transition: .5s;
-    margin: 15px 20px;
-    margin-top: 3rem;
-   
+    margin: 0px 20px;
+    margin-top: 3rem;  
     
  }
  
@@ -56,7 +55,8 @@
  
  
  .card .description {
-    height: 200px;
+    height: auto;
+    margin-bottom: 20px;
     padding: 40px 20px 20px 20px;
     border-bottom: solid 1px rgba(6, 74, 76, .18);
     text-align: center;
@@ -72,7 +72,6 @@
  
  .card .description p {
     color: #ffffff;
-    margin-top: 20px;
     font-size: 15px;
  }
  
@@ -83,6 +82,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
  }
  
  .card .contact a {
@@ -111,8 +111,6 @@
     margin-bottom: 0%;
     padding-top: 13em ;
  
- 
- 
  }
  
  .semillas {
@@ -133,3 +131,25 @@
  
  }
  
+/* @media (max-width:320px) {
+   
+} */
+
+@media (min-width:321px) and (max-width:768px){
+
+   .titulo-semillas{
+      margin: 10px 0;
+      padding: 15px 0px;
+   }
+
+   .titulo-semillas h2{
+      margin: 20px 0px;
+      padding: 10px 0px;
+   }
+
+
+}
+
+/* @media (min-width:769px){
+
+}*/

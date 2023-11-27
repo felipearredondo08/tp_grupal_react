@@ -8,13 +8,12 @@
  
  }
 
- 
-
 
 .footer {
    max-width: var(--max-width);
    display: flex;
    justify-content: space-between;
+   padding-top: 30px;
 }
 
 .footer_widgets {
@@ -34,26 +33,16 @@
 
 @media screen and (max-width:1280px) {
 
-   .header,
    .footer {
       flex-direction: column;
       text-align: center;
+      padding-bottom: 15px;
+      padding-top: 5px;
    }
 
-   .menu {
-      margin-top: 2rem;
-   }
-
-   .content {
-      align-items: center;
-   }
 
    .footer_widget {
       margin-bottom: 1rem;
-   }
-
-
-
-   
+   }  
 
 }
