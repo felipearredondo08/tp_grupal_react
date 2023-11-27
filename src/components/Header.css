@@ -7,7 +7,7 @@
    align-items: center;
    /* position: absolute; */
    top: 2rem;
-   width: 70%;
+   width: 100%;
 }
 
 .logo {
@@ -19,6 +19,7 @@
 }
 
 .menu-list_item {
+   
    display: inline-block;
    margin: 0 .5rem;
    font-size: 24px;
@@ -50,5 +51,21 @@
       font-size: medium;
       margin: 0 5px;
    }
+
+   
+
+   
+
+   .header {
+   max-width: var(--max-width);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* position: absolute; */
+   top: 2rem;
+   width: 70%;
+}
+
+   
 
 }
