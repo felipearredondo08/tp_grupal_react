@@ -28,10 +28,11 @@
  
 .boton-tienda-content {
     background-color: rgb(255, 52, 245);
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     border-radius: 3rem;
     transition: transform .2s;
     margin-top: 2rem;
+    font-size:x-large;
  }
 
  @media (min-width:321px) and (max-width:768px){
